@@ -1,0 +1,9 @@
+#Write code to print even numbers from 1 to 1000
+i = 0
+
+while i < 1000:
+    if i%2 ==0:
+        print(i)
+    i += 1
+
+print ("ended")
