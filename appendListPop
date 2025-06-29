@@ -1,0 +1,16 @@
+l=[3,5,6,4]
+print(l)
+l.append("hi")
+print(l)
+l.pop()
+print(l)
+l.pop()
+print(l)
+l.pop()
+print(l)
+
+l.pop()
+print(l)
+
+l.pop()
+print(l)
