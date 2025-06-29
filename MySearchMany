@@ -1,0 +1,18 @@
+   
+#Now write a code to find all indices of the number you input in a list ( this is the same function of the method index )
+
+MYL=[54,6,24,7,45,55,45,63,45]
+
+n=int(input("Enter Number to search : "))
+
+
+def indexFinder(L,Num):
+    indecies=[]
+    for j in range(len(L)):
+        if L[j]== Num:
+            indecies.append(j)
+    if len(indecies) > 0:
+        return indecies
+    return("Not found")
+
+print(indexFinder(MYL,n))
