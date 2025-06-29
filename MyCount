@@ -1,0 +1,26 @@
+
+#This code finds the number of instances of the number you input ( Same as the Method Count )
+
+
+MYL=[54,6,24,7,45,55,45,63,45,45]
+
+n=int(input("Enter Number to search : "))
+
+
+def MyCount(L,Num):
+    NumberOfResults = 0
+    for i in range(len(L)):
+        if L[i]== Num:
+             NumberOfResults += 1
+    if NumberOfResults > 0:
+        return NumberOfResults
+    return("Not Found !!")
+
+
+
+print(MyCount(MYL,n))
+
+
+
+
+
