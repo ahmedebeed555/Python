@@ -1,0 +1,13 @@
+MYL=[54,6,24,7]
+
+n=int(input("Enter Number to search : "))
+
+def MySearch(L,Num):
+    for i in range(len(L)):
+        if L[i]==Num:
+            return i
+
+    return("Not Found !!!")
+
+print(MySearch(MYL,n))
+
