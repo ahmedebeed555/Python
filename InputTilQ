@@ -1,0 +1,19 @@
+MYL=[]
+x=0
+i =0 
+
+while x != "q":
+    x=input("Enter a number or q to stop : ")
+    MYL.append(x)
+
+
+print(MYL)
+
+"""
+TargetToSearch =input("Enter a number To Search : ")
+
+for i in range(len(MYL)):
+    if MYL[i] == TargetToSearch:
+        print("Target found at : ", i)
+    
+"""
