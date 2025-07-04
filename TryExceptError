@@ -1,0 +1,15 @@
+def get_user_input():
+    Nums=[]
+    n=input("Enter a number or a letter to stop : ")
+    while True:
+        try:
+        
+           Nums.append(int(n))
+           
+        except:
+            return Nums
+
+        n=input("Enter a number or a letter to stop : ")
+
+print(get_user_input())
+
