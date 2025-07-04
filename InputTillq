@@ -1,0 +1,13 @@
+MyList=[]
+
+n=input("Enter a Number or q to stop :")
+while n != "q":
+    MyList.append(n)
+    n=input("Enter a Number or q to stop :")
+
+print(MyList)
+
+n=input("Enter a Target to sesrch:")
+for i in range(len(MyList)):
+    if MyList[i]==n:
+        print("Target found at : ", i)
