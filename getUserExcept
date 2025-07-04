@@ -1,0 +1,14 @@
+def get_user_input():
+    Nums=[]
+    n=input("Enter a number or q to stop : ")
+    while n != "q":
+        try:
+            Nums.append(int(n))
+        except:
+            return " Enter only numbers "
+        n=input("Enter a number or q to stop : ")
+    return Nums
+
+print(get_user_input())
+        
+        
