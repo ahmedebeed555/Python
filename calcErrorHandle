@@ -1,0 +1,40 @@
+
+def calc():
+
+
+        try:
+            n1 = int(input("Enter Number 1 : "))
+        except:
+            print("Please Enter an valid Number : ")
+        try:
+            n2 = int(input ("Enter Number 2 : "))
+        except:
+            print("Please Enter an valid Number : ")
+
+        try:
+            operator = input("Enter Operator (+, -, *, /, % ) : ")
+        except:
+            print("Please Enter an valid Operator (+, -, *, /, % ) :")
+
+        try:
+            if operator == "+":
+                result = n1 +n2
+            elif operator == "-":
+                result = n1 -n2
+            elif operator == "*":
+                result = n1 *n2
+            elif operator == "/":
+                result = n1 /n2
+            elif operator == "%":
+                result = n1 % n2
+        except:
+            print("Please Enter an valid Operator (+, -, *, /, % ) :")
+        
+        try:
+            return result
+        except:
+            print("Invalid Result, Try Again")
+
+
+print("Result = ", calc())
+
