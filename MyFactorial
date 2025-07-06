@@ -1,0 +1,14 @@
+def MyFactorial():
+    f=1
+    try:
+        n=int(input("Enter a valid integer : "))
+    except:
+        return "Enter a valid integer"
+    if n < 0:
+        return "Enter a number larger than 0 "
+    while n > 0:
+        f *= n
+        n -= 1
+    return f
+
+print (MyFactorial())
