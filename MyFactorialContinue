@@ -1,0 +1,30 @@
+def MyFactorial(x):
+    
+   
+    f=1
+    try:
+        n=int(x)
+    except:
+        return "Enter a valid integer"
+    if n < 0:
+        return "Enter a number larger than 0 "
+    while n > 0:
+        f *= n
+        n -= 1
+    
+    
+    print("Factorial ", x , "is ", f) 
+
+
+
+
+
+w=input("Enter a number : ")
+    
+while w != "q":
+    MyFactorial(w)
+    w=input("Enter another number : ")
+print("ByeBye")
+
+
+
