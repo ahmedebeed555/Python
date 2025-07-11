@@ -1,0 +1,10 @@
+#Make a list of Numbers 0 to 1000 and then apply x power 2 on the list 
+
+Answer
+
+MYL=[]
+
+for x in range (100001):
+    MYL.append(x*x)
+    print(MYL[x])
+
