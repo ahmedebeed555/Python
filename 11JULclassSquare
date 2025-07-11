@@ -1,0 +1,25 @@
+class square:
+    def __init__(self,s):
+        self.side=s
+
+    def area(self):
+        return self.side**2 
+
+    def premiter(self):
+        return self.side*4
+try:
+    s = int(input("Enter Square Side : "))
+except:
+    print("Invalid Square Side. Try Another")
+    
+while s!="q":
+    try:
+        s = int(input("Enter Square Side : "))
+        s1 = square(s)
+        print("Square Side = ",s1.side)
+        print("Square Area = ",s1.area())
+        print("Square premiter = ",s1.premiter())
+
+    except:
+        print("Invalid Square Side. Try Another")
+    
