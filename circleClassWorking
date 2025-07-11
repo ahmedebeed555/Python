@@ -8,4 +8,4 @@ class Circle:
 c1 = Circle(4)
 
 print(c1.radius)
-print(c1.area)
+print(c1.area())
