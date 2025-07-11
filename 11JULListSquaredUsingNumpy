@@ -1,0 +1,7 @@
+import numpy as np
+import time
+
+start=time.time()
+arr = np.arange(100000)
+squares = arr ** 2
+print(f" time taken is {time.time()-start}")
