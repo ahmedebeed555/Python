@@ -1,0 +1,13 @@
+class Circle:
+    def __init__(self,r):
+        self.radius=r
+
+    def area(self):
+
+        return 3.14 * self.radius**2 
+
+c1 = Circle(4)
+
+print("Circle Radius = ",c1.radius)
+print("Circle Area = ",c1.area())
+
